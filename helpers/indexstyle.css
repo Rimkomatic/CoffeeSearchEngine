@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.main-container{
+    height: 60vh;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+h1
+{
+    font-size: 10rem;
+}
+
+.searcharea>form{
+    padding-top: 10vh;
+    scale: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
